@@ -1,0 +1,5 @@
+Command to build properly:
+
+ng build --configuration production --base-href /
+
+Copy index.html and rename the copy 404.html

@@ -1,0 +1,40 @@
+//main {
+//  max-width: 800px;
+//}
+
+.custom-label {
+  text-align: right;
+  margin-top: 0.4rem;
+  min-width: 5rem;
+}
+
+.ng-select.bootstrap .ng-select-container {
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.ng-select.bootstrap.ng-select-focused .ng-select-container {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, .25);
+}
+
+.form-card {
+  width: max-content;
+  max-width: 90vw;
+}
+
+.res-card {
+  width: 18rem;
+
+  @media (max-width: 768px) {
+    width: 90vw;
+  }
+}
